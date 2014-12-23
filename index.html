@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid #ccc;
+}
+.dashed {
+    border-bottom: 1px dashed #000;
+}
+.txt {
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1px;
+}
+	</style>
+</head>
+<body>
+	<p class="txt">borderにdashedかdottedを指定すると、後続の…</p>
+<table>
+    <tr>
+        <td><span class="dashed">てすと</span></td>
+        <td><span>空</span></td>
+        <td><span>空</span></td>
+    </tr>
+</table>
+<p class="txt">ここのテキストがおかしなことになる。</p>
+</body>
+</html>
