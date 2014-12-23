@@ -13,6 +13,10 @@ td {
 .dashed {
     border-bottom: 1px dashed #000;
 }
+.dashed.clear:after {
+	content: " ";
+	border: 1px solid #fff;
+}
 .txt {
     -webkit-text-stroke-color: #000;
     -webkit-text-stroke-width: 1px;
@@ -35,5 +39,9 @@ td {
 </p>
 <p class="txt">ここのテキストがおかしなことになる。</p>
 <p class="txt">このテキストはのろわれてしまった！</p>
+<p>
+	<span class="dashed clear">てすと</span>
+</p>
+<p class="txt">このテキストの呪いを解除した！</p>
 </body>
 </html>
